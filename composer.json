@@ -17,24 +17,7 @@
     "require":
     {
         "php": ">=5.6.0",
-        "this7/framework": "3.*.*",
-        "phppacks/phppack": ">=0.0.1",
-        "this7/images": "3.*.*"
-    },
-    "autoload":
-    {
-        "psr-4":
-        {
-            "server\\controllers\\": "server/controllers",
-            "server\\connector\\": "server/connector",
-            "server\\middleware\\": "server/middleware",
-            "server\\models\\": "server/models"
-        },
-        "classmap": [
-            "server/controllers",
-            "server/connector",
-            "server/models"
-        ]
+        "phppacks/phppack": ">=0.0.1"
     },
     "config":
     {
