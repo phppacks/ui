@@ -1,0 +1,45 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "A Vue.js project",
+    "author": "qinuoyun <qinuoyun@qq.com>",
+    "entry":
+    {
+        "app": "./src/main.js"
+    },
+    "dependencies":
+    {
+        "Vue": "^2.5.2",
+        "ui": "^2.5.2",
+        "phprouter": "^2.5.2",
+        "moment": "^2.5.2",
+        "vue-router": "3.0.0",
+        "velocity-animate": "^2.5.2",
+        "vue-focus": "^2.5.2",
+        "dayjs": "2.3.2",
+        "china": "1.0.0",
+        "echarts": "1.0.0",
+        "macarons": "1.0.0",
+        "highlight": "^9.12.0",
+        "marked": "^0.4.0",
+        "dragging":"1.23.0",
+        "vuescroll":"1.1.1"
+    },
+    "phprouter":
+    {
+        "pages": "./src/pages"
+    },
+    "build":
+    {
+        "template": "app.html",
+        "url": "",
+        "path": "static",
+        "pack":"dist",
+        "check": false
+    },
+    "lock":
+    {
+        "ui": "./src/ui/index.js",
+        "phprouter": "./src/phprouter/index.js"
+    }
+}
